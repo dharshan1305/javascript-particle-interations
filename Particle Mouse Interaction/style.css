@@ -1,0 +1,18 @@
+/* * is for all elements in the page */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    /* Overflow set to hidden to hide scroll bar. */
+    overflow:hidden;
+    background:black;
+}
+
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+}
